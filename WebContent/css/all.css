@@ -1,0 +1,131 @@
+
+        body{
+            margin: 0px;
+            width: 1024px;
+            height: 1000px;
+            background-color: rgb(214, 236, 238);
+        }
+        #main{
+            font-family: Georgia, '나눔손글씨 장미체', Times, serif;
+            margin-left: 130px;
+        }
+        header{
+            
+            width: 1024px;
+            height: 200px;
+            float: left;
+            background-color:rgb(166, 217, 226);
+            margin: 0% auto;
+            
+        }
+        header a{
+            float: left;
+            padding-left: 5px;
+        }
+        header a img{
+            padding-left: 40px;
+        }
+
+        header nav li{
+            float: left;
+            display: inline;
+            margin-left: 40px;
+            margin-top: 140px;
+        }
+
+        header nav li #join{
+            float: left;
+            margin-left: 10px;
+        }
+
+
+        #mnav ul{
+            width: 1024px;
+            height: 50px;
+            margin: 0% auto;
+            padding-top : 13px;
+            background-color: dimgray;
+            float: left;
+            box-sizing: border-box;
+            
+        }
+        #mnav li{
+            float: left;
+            display: inline;
+            margin-left: 64px;
+            margin-right: 30px;
+            
+        }
+        #mnav nav ul li a{
+            font-size: 21px;
+            color: azure;   
+            text-decoration: none;     
+        }
+        #mnav nav ul li a:hover{
+            background-color: gray;            
+        }
+        #sh{
+            margin-left: 3px;
+        }
+        #titlesh{
+            color: white;
+        }
+        section{
+            width: 1024px;
+            height: 650px;
+            background-color: steelblue;
+            float: left;
+        }
+
+
+        #top{
+            
+            width: 734px;
+            height: 650px;
+            background-color: beige;
+            float: left;
+
+        }
+        #ad{
+            float: left;            
+            width: 290px;
+            height: 650px;
+            background-color:beige ;
+
+        }
+        #ad a{
+            float:right ;
+        }
+
+        #article1,#article2,#article3{
+            color: black;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 724px;
+            height: 200px;
+            
+        }
+        h2:active{ /* 클릭시 색 변경*/
+        color: crimson;
+        }
+
+        h2{
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+        }
+        #article1:hover,#article2:hover,#article3:hover{
+            color: gray;
+        }
+
+        footer{
+            width: 1024px;
+            height: 100px;
+            background-color: rgb(133, 136, 136);
+            float: left;
+            text-align: center;
+        }
+        #article1 tr{
+            margin-top: -50%;
+        }
